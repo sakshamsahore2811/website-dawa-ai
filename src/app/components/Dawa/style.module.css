@@ -1,0 +1,249 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&family=Raleway:wght@500&display=swap');
+
+.container {
+    background-color: white;
+}
+
+.shopper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container h1 {
+    color: #5F687B;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 63px;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.container p {
+    color: #7B8292;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Ralway';
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.shopper .card {
+    width: 500px;
+    height: 140px;
+    border-radius: 15px;
+    padding: 27px, 60px, 27px, 60px;
+    margin: 20px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.card h2 {
+    color: black;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 28px;
+    color: #262626;
+    line-height: 30px;
+    padding-top: 2%;
+}
+
+.card p {
+    color: black;
+    padding: 10px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 17px;
+    color:  #636363;
+}
+
+@media(max-width:700px){
+   .shopper img{
+    width: 450px;
+    height: 400px;
+   }
+   .shopper .card {
+    width: 450px;
+    height: 120px;
+    border-radius: 15px;
+    padding: 27px, 60px, 27px, 60px;
+    margin-top: 5%;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+   
+} */
+
+/* saiket */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&family=Raleway:wght@500&display=swap'); */
+
+
+.container {
+    background-color: white;
+}
+
+.container h1 {
+    color: #5F687B;
+    text-align: center;
+    /* font-family: 'Poppins'; */
+    font-family: sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.container p {
+    color: #868fa4;
+    text-align: center;
+    /* font-family: 'Raleway'; */
+    font-family: sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 1rem;
+    margin-bottom: 35px;
+}
+
+.shopper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.shopper img {
+    object-fit: cover;
+    width: 500px;
+    height: 400.96px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    box-shadow: 7px 7px 14px 0px rgba(0, 0, 0, 0.42);
+}
+
+.card {
+    object-fit: cover;
+    width: 500px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    height: 87px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 4px solid #7F82FF;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card h2 {
+    align-items: center;
+    justify-content: center;
+    /* font-family: 'Raleway';
+    color: #7F82FF; */
+    font-family: sans-serif;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.card_1 {
+    margin-left: 10.5rem;
+    margin-top: 1.5rem;
+}
+
+.card_2 {
+    margin-left: 11rem;
+    margin-top: 1.5rem;
+}
+
+.card_3 {
+    margin-left: 11rem;
+    margin-top: 1.5rem;
+}
+
+@media screen and (max-width:768px) {
+
+    .container {
+        padding-top: 1rem;
+    }
+
+    .container h1 {
+        color: #5F687B;
+        text-align: center;
+        /* font-family: 'Poppins'; */
+        font-family: sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .container p {
+        color: #7B8292;
+        text-align: center;
+        font-family: 'Raleway',sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .shopper img {
+        object-fit: cover;
+        margin: 0.4rem;
+        width: 355px;
+        height: 219.3px;
+        top: 11487px;
+        left: 35140px;
+        border-radius: 15px;
+    }
+
+    .card {
+        object-fit: cover;
+        width: 274px;
+        height: 46px;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        border-radius: 15px;
+        border: 1.5px solid #7F82FF;
+        background: #FFF;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .card h2 {
+        /* color: #7F82FF; */
+        color: black;
+        font-family: 'Raleway',sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+    }
+
+    .card_1 {
+       
+     
+       margin-left: 2.9rem;
+       margin-top: 0.6rem;
+
+    }
+
+    .card_2 {
+        margin-left: 4.5rem;
+        margin-top: 0.6rem;
+    }
+
+    .card_3 {
+        margin-left: 3.7rem;
+       margin-top: 0.6rem;
+    }
+}

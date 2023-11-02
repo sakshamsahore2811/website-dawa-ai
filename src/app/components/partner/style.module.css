@@ -1,0 +1,123 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&family=Raleway:wght@500&display=swap');
+
+.container {
+    background-color: #16DF7E;
+    width: 100%;
+    height: 200px;
+
+}
+
+.partner {
+    margin-left: 43%;
+    padding-top: 4%;
+
+}
+
+.partner h3 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-family: 30px;
+    line-height: 30px;
+
+}
+
+.partner button {
+    background-color: #344D67;
+    border: none;
+    color: #ffffff;
+    padding: 7px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    border: 5px;
+    font-size: 17px;
+    line-height: 30px;
+    margin-left: 3%;
+    margin-top: 2%;
+    width: 150px;
+
+}
+
+@media(max-width:700px) {
+
+    .partner {
+        margin-left: 35%;
+        padding-top: 10%;
+    }
+
+
+
+} */
+
+/* saiket */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&family=Raleway:wght@500&display=swap');
+
+.container {
+    background: #7F82FF;
+    width: 100%;
+    height: 200px;
+}
+
+.partner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media(max-width:700px) {
+    .partner h3 {
+        font-family: 'Poppins',sans-serif;
+        font-weight: 800;
+        font-family: 30px;
+        line-height: 30px;
+        margin-top: 3.5rem;
+     
+    }
+    
+
+    .partner button {
+        background-color: #53667b;
+        border: none;
+        color: #ffffff;
+        font-family: 'Poppins',sans-serif;
+        font-weight: 700;
+        border-radius: 10px;
+        font-size: 20px;
+        line-height: 30px;
+        width: 120px;
+        margin-top: 2%;
+
+    }
+}
+
+@media(min-width:700px){
+    .partner h3 {
+        font-family: 'Poppins',sans-serif;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 34px;
+        margin-top: 3%;
+
+    }
+
+    .partner button {
+        margin-top: 1rem;
+        background-color: #344D67;
+        border: none;
+        color: #ffffff;
+        font-family: 'Poppins',sans-serif;
+        font-weight: 500;
+        border: 5px;
+        font-size: 20px;
+        line-height: 30px;
+        height: 45px;
+        width: 150px;
+        margin-top: 1.5%;
+        
+
+    }
+}
+
+
