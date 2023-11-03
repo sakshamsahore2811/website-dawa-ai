@@ -18,7 +18,8 @@ export default function Home() {
       <Cards/>
       <Offering />
       <Partner />
-      <Curosel />
+      {/* <Curosel /> */}
+      <Incabution/>
       <Contact />
       <Footer />
     </div>
