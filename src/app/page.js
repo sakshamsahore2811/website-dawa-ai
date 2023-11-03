@@ -1,3 +1,4 @@
+'use client'
 import NavBar from "./components/Navbar/NavBar";
 import Dawa from "./components/Dawa/Dawa";
 import Cards from "./components/fundamental/Cards";
@@ -17,11 +18,9 @@ export default function Home() {
       <Cards/>
       <Offering />
       <Partner />
-    {/* <Incabution /> */}
       <Curosel />
       <Contact />
       <Footer />
-     
     </div>
   )
 }
