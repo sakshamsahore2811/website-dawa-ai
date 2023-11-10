@@ -2,11 +2,22 @@
 
 .container{
     background-color: #ffffff;
+    padding-bottom: 4%;
 }
 
-.ourincubators{
-    background-color: #ffffff;
-}
+.slick-slider {
+    margin-right: -10px; /* Adjust the negative margin to control the space between images */
+  }
+  
+  .slick-slide img {
+    margin-right: 10px; /* Adjust the margin to control the space between images */
+  }
+  
+  /* Optional: Add margin to the last image to maintain consistent spacing */
+  .slick-list img:last-child {
+    margin-right: 0;
+  }
+
 .container h1{
     color: #5F687B;
     font-family: 'Poppins';
@@ -17,6 +28,7 @@
     justify-content: center;
     padding: 15px;
     padding-top: 2%;
+    padding-bottom: 4%;
 }
 
 

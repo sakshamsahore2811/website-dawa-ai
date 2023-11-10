@@ -1,17 +1,9 @@
 import React from 'react';
-import { useEffect } from 'react';
-// import { Carousel } from 'bootstrap';
+import Slider from 'react-slick';
 import styles from "./style.module.css"
 import Image from 'next/image';
-// import built from "../../../../public/images/built.png"
-// import desai from "../../../../public/images/desai.png"
-// import catalyst from "../../../../public/images/catalyst.png"
-// import jic from "../../../../public/images/jic.png"
-// import bi from "../../../../public/images/bi.png"
-// import rsn from "../../../../public/images/rsn.png"
-// import iimb from "../../../../public/images/iimb.png"
-// import iit from "../../../../public/images/iit.png"
-// import ideas from "../../../../public/images/ideas.png"
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import bincube from "../../../../public/images/bincube.png";
 import catalyst from "../../../../public/images/catalyst.png";
 import ciie from "../../../../public/images/ciie.png";
@@ -22,31 +14,51 @@ import jic from "../../../../public/images/jic.png";
 import rsn from "../../../../public/images/rsn.png";
 import sine from "../../../../public/images/sine.png";
 
-
-
-
-
-
-
-
-
-
 const Curosel = () => {
+  const settings = {
     
-    return (
-        <div className={styles.container}>
-        <h1>OUR INCUBATORS</h1>
-        <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
-          <div className="ms-5 carousel-inner">
-            <div className="carousel-item">
-              <Image className="ms-5" src={catalyst} height={200} alt="img" />
-              <Image className="ms-5" src={iitb} height={200} alt="img" />
-              <Image className="ms-5" src={ideas} height={200} alt="img" />
-            </div>
+    infinite: true,
+    speed: 500,
+    autoplay: true,            // Enable autoplay
+    autoplaySpeed: 2000, 
+    slidesToShow: 4,
+    centerMode: true, 
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+        },
+      },
+    ],
+  };
+
+  const images = [catalyst, ideas,bincube,iimb,rsn,jic,sine,ciie];
+
+  return (
+    <div className={styles.container}>
+      <h1>OUR INCUBATORS</h1>
+      <Slider {...settings}>
+        {images.map((img, index) => (
+          <div className='slidepic' key={index}>
+            <Image src={img} height={125}  alt={`img${index}`} />
           </div>
-        </div>
-      </div>
-    )
-}
+        ))}
+      </Slider>
+    </div>
+  );
+};
 
 export default Curosel;

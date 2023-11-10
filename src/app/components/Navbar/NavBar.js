@@ -31,7 +31,7 @@ const NavBar = () => {
             <ul style={{ listStyle: "none", display: showMenu ? 'block' : "none" }}>
               <li><a href='/'>Home</a></li>
               <li><a href='/'>About Us</a></li>
-              <li><a href='/'>Offering</a></li>
+              <li><a href='/'>Offerings</a></li>
               <li><a href='/'>Contact Us</a></li>
               <li>  <button>Join Us</button> </li>
               <li>  <button>Sign In</button>  </li>
@@ -44,7 +44,7 @@ const NavBar = () => {
           <ul className={styles.unorderedlist}>
             <li className={styles.listitem}><Link href='/'>Home</Link></li>
             <li className={styles.listitem}><Link href='#whydawa'>About Us</Link></li>
-            <li className={styles.listitem}><Link href='#ourofferings'>Offering</Link></li>
+            <li className={styles.listitem}><Link href='#ourofferings'>Offerings</Link></li>
             <li className={styles.listitem}><Link href='#contactus'>Contact Us</Link></li>
             <li className={styles.listitem}>  <button><Link href="http://app.dawaai.co.in/"> Log In </Link> </button></li>
             <li className={styles.listitem}> <button> <Link href="http://app.dawaai.co.in/"> Sign Up</Link>  </button>    </li>
