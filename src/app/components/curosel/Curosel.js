@@ -18,7 +18,7 @@ const Curosel = () => {
   const settings = {
     
     infinite: true,
-    speed: 500,
+    speed: 1000,
     autoplay: true,            // Enable autoplay
     autoplaySpeed: 2000, 
     slidesToShow: 4,
