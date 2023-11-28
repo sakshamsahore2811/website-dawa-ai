@@ -25,7 +25,7 @@ const Contact = () => {
                 <div className={styles.contact}>
                     
                     <div>
-                    <Image src={map} alt='img' /><span>Locations</span>
+                    <Image src={map} alt='img' /><span>Location</span>
                         <p>
                             203/A1 Rukmani Apt., Friends Colony. Katol Road Nagpur, <br />
                             Maharashtra
