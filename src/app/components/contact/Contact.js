@@ -11,9 +11,9 @@ import Image from 'next/image';
 // import mail from "../../../../public/images/mail.png";
 
 
-import calls from"../../../../public/images/location-1.png"
-import map from "../../../../public/images/msg.png"
-import mail from "../../../../public/images/phone.png"
+import calls from"../../../../public/images/phone.png"
+import map from "../../../../public/images/location-1.png"
+import mail from "../../../../public/images/msg.png"
 
 
 
@@ -23,16 +23,16 @@ const Contact = () => {
             <h1>CONTACT US</h1>
             <div className={styles.main}>
                 <div className={styles.contact}>
+                    
                     <div>
-                        <Image className={styles.iconimage} src={map} alt='img' />  <span>Locations</span>
+                    <Image src={map} alt='img' /><span>Locations</span>
                         <p>
                             203/A1 Rukmani Apt., Friends Colony. Katol Road Nagpur, <br />
                             Maharashtra
                         </p>
                     </div>
                     <div>
-                        <span><Image src={mail} alt='img' /></span>
-                        <span>Email</span>
+                        <Image src={mail} alt='img' /><span>Email</span>
                         <p>
                             kushal@dawaai.co.in
                         </p>
