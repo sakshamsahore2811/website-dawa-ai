@@ -21,10 +21,10 @@ const Footer = () => {
 
       <div>
         <ul>
-          <li><a href="#"><Image src={twitter} /></a></li>
-          <li><a href="#"><Image src={facebook} /></a></li>
-          <li><a href="#"><Image src={instagram} /></a></li>
-          <li><a href="#"><Image src={linkedin} /></a></li>
+          <li><a href="https://twitter.com/DawaAi19789" target="_blank"><Image src={twitter} /></a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=61554040680529" target="_blank"><Image src={facebook} /></a></li>
+          <li><a href="https://www.instagram.com/dawa_ai" target="_blank"><Image src={instagram} /></a></li>
+          <li><a href="https://www.linkedin.com/company/dawa-ai" target="_blank"><Image src={linkedin} /></a></li>
 
         </ul>
       </div>
