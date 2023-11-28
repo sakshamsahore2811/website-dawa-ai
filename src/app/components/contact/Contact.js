@@ -26,12 +26,12 @@ const Contact = () => {
                     <div>
                         <Image src={map} alt='img' />  <span>Locations</span>
                         <p>
-                            203/A1 Rukhmini Apt., Friends Colony. Katal Road Nagpur, <br />
+                            203/A1 Rukmani Apt., Friends Colony. Katol Road Nagpur, <br />
                             Maharashtra
                         </p>
                     </div>
                     <div>
-                        <Image src={mail} alt='img' />
+                        <span><Image src={mail} alt='img' /></span>
                         <span>Email</span>
                         <p>
                             kushal@dawaai.co.in
